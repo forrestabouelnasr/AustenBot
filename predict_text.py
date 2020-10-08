@@ -89,3 +89,6 @@ print(
 print(
     generate_a_sentence(sentence_starters, word_followers)
 )
+print(
+    generate_a_sentence(sentence_starters, word_followers)
+)
