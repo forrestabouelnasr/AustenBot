@@ -41,8 +41,6 @@ def predict_next_word(count_dict):
     # translate count_dict into list of words with cumulative count, e.g.
     # count_dict = {'a':1, 'b':4, 'c': 1}
     # -> cumulative_count_list = [('a', 1), ('b', 5), ('c', 6)]
-
-    # choose random int between 0 and sum of counts. Predict the word corresponding to that int.
     words_list = []
     cumulative_counts_list = []
     cumulative_count = 0
